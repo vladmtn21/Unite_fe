@@ -1,0 +1,8 @@
+.imagine{
+    height: 100px;
+    width: 100px;
+}
+
+.card-body{
+    display: flex;
+}

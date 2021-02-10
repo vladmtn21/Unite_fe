@@ -1,0 +1,5 @@
+<div *ngFor="let follower of followersList">
+    <app-followers-card [follower]="follower"></app-followers-card>
+</div>
+
+<button type="button" class="btn btn-dark" (click)="loadMore()">Load more</button>
